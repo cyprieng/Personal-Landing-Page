@@ -86,7 +86,15 @@ hr.small{
   text-shadow: none;
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
+  color: rgba(210, 210, 210, 1);
+}
+
+#content a:hover{
   color: #fff;
+  -webkit-transition: color .1s ease-in;
+  -moz-transition: color .1s ease-in;
+  -o-transition: color .1s ease-in;
+  transition: color .1s ease-in;
 }
 
 #content i{
