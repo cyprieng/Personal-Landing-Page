@@ -67,6 +67,12 @@ hr.small{
   margin-top: 10px;
 }
 
+#content a{
+  color:inherit;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
 #content .blog{
   margin-right: 5%;
   padding: 10px 20px;
@@ -76,7 +82,7 @@ hr.small{
   margin-top: 30px;
 }
 
-#content a{
+#content .social a{
   padding: 10px 10px;
   border: 1px solid #fff;
   border-radius: 20px;
